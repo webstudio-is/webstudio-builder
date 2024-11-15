@@ -70,36 +70,32 @@ const FlexChildSectionAlign = () => {
         items={[
           {
             child: <SmallXIcon />,
-            description:
-              "The element's alignment is determined by its parent's align-items property.",
+            description: propertyDescriptions["alignSelf:auto"],
             value: "auto",
           },
           {
             child: <ASStartIcon />,
-            description:
-              "The element is aligned at the start of the cross axis.",
+            description: propertyDescriptions["alignSelf:flex-start"],
             value: "flex-start",
           },
           {
             child: <ASEndIcon />,
-            description: "The element is aligned at the end of the cross axis.",
+            description: propertyDescriptions["alignSelf:flex-end"],
             value: "flex-end",
           },
           {
             child: <ASCenterIcon />,
-            description: "The element is centered along the cross axis.",
+            description: propertyDescriptions["alignSelf:center"],
             value: "center",
           },
           {
             child: <ASStretchIcon />,
-            description:
-              "The element is stretched to fill the entire cross axis.",
+            description: propertyDescriptions["alignSelf:stretch"],
             value: "stretch",
           },
           {
             child: <ASBaselineIcon />,
-            description:
-              "The element is aligned to the baseline of the parent.",
+            description: propertyDescriptions["alignSelf:baseline"],
             value: "baseline",
           },
         ]}
