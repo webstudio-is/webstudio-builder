@@ -127,6 +127,10 @@ export const ComboboxItemDescription = ({
   children: ReactNode;
   descriptions: ReactNode[];
 }) => {
+  if (descriptions.length === 0) {
+    return;
+  }
+
   return (
     <>
       <ComboboxSeparator
